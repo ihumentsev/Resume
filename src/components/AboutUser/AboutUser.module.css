@@ -1,0 +1,169 @@
+.maincontent{
+    background-color: #FFFFFF;
+        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+        padding: 105px 90px;
+}
+.about_user {
+    margin-bottom: 40px;
+}
+
+.about_position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about_name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about_description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+
+/* project styles */
+.projects {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.project_list {
+    list-style: none;
+    padding: 0;
+    padding: 0px;
+
+}
+
+.projeck_item {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project,
+.project_link {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projeck_bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* work */
+.work_positon {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.work_list {
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.work_list_item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+h5 {
+    margin: 0;
+}
+
+.lang_list {
+    display: flex;
+    list-style: none;
+}
+
+.lang_list li {
+
+    padding: 0 10px;
+
+
+}
+
+
+.lang_item:not(:last-child) {
+    border-right: 1px solid rgb(180, 180, 180);
+}
+
+.lang_link {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.lang_link:hover,
+.lang_link--active {
+
+    scale: 1.3;
+    cursor: pointer;
+}

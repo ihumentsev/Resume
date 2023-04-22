@@ -1,0 +1,82 @@
+.sidebar {
+    background-color: #1E2939;
+    padding-top: 40px;
+    width: 370px;
+
+}
+
+.fotouser {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px -20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.sidebar_title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.contacts,
+.skils,
+.softskils {
+    margin-left: 40px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.contact_list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact_type {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contact_link {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.skils_list,
+.softskils_list {
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.skils_item,
+.softskils_item {
+    color: #FFFFFF;
+}
+
+.skils_text,
+.softskils_text {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
